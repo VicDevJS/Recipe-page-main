@@ -72,3 +72,16 @@ li{
     grid-template-columns: 1fr 1fr;
     margin: 0;
 }
+
+@media only screen and (max-width: 500px){    
+    body{
+        padding: 0;
+        margin: 0;
+        display: block;
+        background-color: #ffffff;
+    }
+    html, .container, .apresentation, .nutrition{
+        margin: 0;
+        border-radius: 0;
+    }
+}
